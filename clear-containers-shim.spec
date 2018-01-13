@@ -4,7 +4,7 @@
 #
 Name     : clear-containers-shim
 Version  : 3.0.13
-Release  : 17
+Release  : 18
 URL      : https://github.com/clearcontainers/shim/archive/3.0.13.tar.gz
 Source0  : https://github.com/clearcontainers/shim/archive/3.0.13.tar.gz
 Summary  : No detailed summary available
@@ -32,12 +32,12 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1515857743
+export SOURCE_DATE_EPOCH=1515858093
 %autogen --disable-static --libexecdir=/usr/libexec/clear-containers
 make  %{?_smp_mflags}
 
 %install
-export SOURCE_DATE_EPOCH=1515857743
+export SOURCE_DATE_EPOCH=1515858093
 rm -rf %{buildroot}
 %make_install
 
