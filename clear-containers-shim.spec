@@ -4,7 +4,7 @@
 #
 Name     : clear-containers-shim
 Version  : 3.0.16
-Release  : 21
+Release  : 22
 URL      : https://github.com/clearcontainers/shim/archive/3.0.16.tar.gz
 Source0  : https://github.com/clearcontainers/shim/archive/3.0.16.tar.gz
 Summary  : No detailed summary available
